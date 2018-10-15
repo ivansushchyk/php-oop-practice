@@ -6,34 +6,34 @@ class Worker
     private $age;
     private $salary;
 
-    public function get_Name()
+    public function getName()
     {
         return $this->name;
     }
 
-    public function get_Age()
+    public function getAge()
     {
         return $this->age;
     }
 
-    public function get_Salary()
+    public function getSalary()
     {
         return $this->salary;
     }
 
-    public function set_Name($name)
+    public function setName($name)
     {
         $this->name = $name;
 
     }
 
-    public function set_Age($age)
+    public function setAge($age)
     {
         $this->age = $age;
 
     }
 
-    public function set_Salary($salary)
+    public function setSalary($salary)
     {
         $this->salary = $salary;
     }
@@ -44,12 +44,12 @@ class Worker
 $ivan = new Worker();
 $ivan->set_Name('Ivan');
 $ivan->set_Age(25);
-$ivan->set_Salary(1000);
+$ivan->setSalary(1000);
 
 $vasya = new Worker();
 $vasya->set_Name('Vasya');
 $vasya->set_Age(26);
-$vasya->set_Salary(2000);
+$vasya->setSalary(2000);
 
 echo $vasya->get_Salary() + $ivan->get_Salary();
 echo "\n";

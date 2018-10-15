@@ -11,16 +11,16 @@ class Worker
         $this->salary = $salary;
     }
 
-    public function get_Name()
+    public function getName()
     {
         return $this->name;
     }
 
-    public function get_Salary()
+    public function getSalary()
     {
         return $this->salary;
     }
 }
 
 $dima = new Worker('Dmitrii', 14200);
-echo $dima->get_Salary();
+echo $dima->getSalary();

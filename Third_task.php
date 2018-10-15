@@ -6,29 +6,29 @@ private $name;
 private $age;
 private $salary;
 
-public function get_Name()
+public function getName()
 {
 return $this->name;
 }
 
-public function get_Age()
+public function getAge()
 {
 return $this->age;
 }
 
-public function get_Salary()
+public function getSalary()
 {
 return $this->salary;
 }
 
-public function set_Name($name)
+public function setName($name)
 {
 $this->name = $name;
 
 }
 
-public function set_Age($age)
-{ if($this->check_Age($age)){
+public function setAge($age)
+{ if($this->checkAge($age)){
 $this->age = $age;
 }
 else{
@@ -36,7 +36,7 @@ else{
 }
 }
 
-public function set_Salary($salary)
+public function setSalary($salary)
 {
 $this->salary = $salary;
 }
@@ -51,6 +51,6 @@ private function check_Age($age){
 
 }
 $ivan = new Worker();
-$ivan->set_Age(112);
-$ivan->set_Age(35);
-echo $ivan->get_Age();
+$ivan->setAge(112);
+$ivan->setAge(35);
+echo $ivan->getAge();
