@@ -2,7 +2,6 @@
 
 class Worker
 {
-<<<<<<< HEAD
     private $name;
     private $age;
     private $salary;

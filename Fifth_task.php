@@ -45,11 +45,9 @@ class Worker extends User
         $this->salary = $salary;
     }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 9a92b7fc2a25767e3767bbdb66fb31bb821aaedb
 }
+
 
 $ivan = new Worker();
 $ivan->set_Name('Ivan');
